@@ -1,5 +1,6 @@
-class SqrtController < ApplicationController
+class CalculationsController < ApplicationController
   def home
+      render 'home'
   end
 
   # def square_root
